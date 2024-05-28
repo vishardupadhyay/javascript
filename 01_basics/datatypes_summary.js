@@ -21,3 +21,6 @@ console.log(aValue)
     3. Functions
 
 */
+
+// All primitive data types are stored in stack memory.
+// All non-primitive data types are stored in Heap memory.
