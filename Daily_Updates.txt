@@ -1,0 +1,9 @@
+Starting from 30-05-2024
+
+Things I have learnt today
+
+    1. Two ways of declaring strings in javascript.
+    2. String interpolation using back ticks ``.
+    3. Difference between substring and slice methods of string.
+    4. Explored charAt(), indexOf(), remove(), trim() methods.
+
