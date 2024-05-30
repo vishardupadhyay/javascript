@@ -7,3 +7,10 @@ Things I have learnt today
     3. Difference between substring and slice methods of string.
     4. Explored charAt(), indexOf(), remove(), trim() methods.
 
+31-05-2024
+
+Things I have learnt today
+
+    1. Working with numbers and maths.
+    2. Working of dates in javascript
+    3. Explored some methods of dates.
