@@ -17,8 +17,17 @@ Things I have learnt today
     4. Explored arrays in javascript.
 
 
+04-06-2024
 
+Things I have learnt today
+
+    1. How to declare objects
+    2. Accessing properties of objects
+    3. Nesting of objects - objects inside objects.
+    4. Merging of two objects
+    
 
 Where I left today
 
     - Start with Object in javascript. - 16
+    - Start with Object de-structure and JSON API intro - 18
