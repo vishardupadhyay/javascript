@@ -9,7 +9,9 @@
     2. To make sure if the property exists in the object
         Make use of obj.hasOwnProperty('propertyName') method - this will return a boolean value
         and can be safe before accessing the value because value may not exist.
-    3. 
+    3. The objects can be destructured by using 2 techniques
+        1. let value = obj1.Key 
+        2. let value = {key: you can add specific name also} = course // this syntax is preferred.
 */
 const regularUser = {
     email: "some@example.com",
@@ -32,3 +34,14 @@ const obj3 = {
      ...obj2
     }
 console.log(obj3)
+
+const course = {
+    name: "javascipt",
+    price: "999",
+    instructor: "hitesh"
+}
+
+// object de-structuring.
+const {instructor} = course // or const {instructor: courseInstructor} = course
+
+console.log(instructor) // or console.log(courseInstructor)
