@@ -42,6 +42,9 @@ const course = {
 }
 
 // object de-structuring.
-const {instructor} = course // or const {instructor: courseInstructor} = course
+const {name: courseName, price, instructor} = course // or const {instructor: courseInstructor} = course
 
-console.log(instructor) // or console.log(courseInstructor)
+// Multiple values can also be extracted from the object using comma's
+// e.g. const {instructor, name, price} = course
+
+console.log(`The name is ${name}, price is ${price} and the instructor is ${instructor}`) // or console.log(courseInstructor)

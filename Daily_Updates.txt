@@ -26,7 +26,14 @@ Things I have learnt today
     3. Nesting of objects - objects inside objects.
     4. Merging of two objects
     
+07-06-2024
 
+Things I have learnt today
+
+    1. Started with basics of functions.
+    2. Learnt how to destructure the objects.
+    3. Learnt about variable scopes. // declaring variables using var is not recommended due to accessibility issue.
+    
 Where I left today
 
     - Start with Object in javascript. - 16
