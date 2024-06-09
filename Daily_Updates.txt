@@ -33,9 +33,12 @@ Things I have learnt today
     1. Started with basics of functions.
     2. Learnt how to destructure the objects.
     3. Learnt about variable scopes. // declaring variables using var is not recommended due to accessibility issue.
+    4. Normal functions and arrow functions.
+    5. Key difference between functions and arrow functions.
     
 Where I left today
 
     - Start with Object in javascript. - 16
     - Start with Object de-structure and JSON API intro - 18
     - Start with scope level and mini hoisting - 22
+    - Start with Immediately invoked function expression
