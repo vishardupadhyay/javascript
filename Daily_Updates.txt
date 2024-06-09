@@ -38,3 +38,4 @@ Where I left today
 
     - Start with Object in javascript. - 16
     - Start with Object de-structure and JSON API intro - 18
+    - Start with scope level and mini hoisting - 22
