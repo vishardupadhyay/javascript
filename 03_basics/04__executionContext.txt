@@ -1,0 +1,21 @@
+Javascript Exeuction context
+
+    - Global exeuction context
+    - Function exeuction context
+
+Phases 
+
+    - Memory Creation Phase / Creation Phase
+    - Exeuction Phase
+
+Steps
+
+    - Global Exeuction - this
+    - Memory Phase 
+        - all the variable are initialized with undefined - even there are some values in those.
+        - only variables are initialized with indefined , if there is a function then funciton defition.
+    - Exeuction Phase
+        - all the variables are assigned with the values.
+        - every time a funciton is execution , a new context + thread is created and is deleted after the work is done.
+             - Memory Creation Phase
+             - Execution Phase

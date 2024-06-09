@@ -35,6 +35,9 @@ Things I have learnt today
     3. Learnt about variable scopes. // declaring variables using var is not recommended due to accessibility issue.
     4. Normal functions and arrow functions.
     5. Key difference between functions and arrow functions.
+    6. Immediately Invoked Function Expression (IIFE) and it's types.
+    7. Javascript execution context
+    8. Control flow in javascript.
     
 Where I left today
 
@@ -42,3 +45,4 @@ Where I left today
     - Start with Object de-structure and JSON API intro - 18
     - Start with scope level and mini hoisting - 22
     - Start with Immediately invoked function expression
+    - Start with for loop with break and continue
