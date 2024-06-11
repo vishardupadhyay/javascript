@@ -47,6 +47,12 @@ Things I have learnt today
     2. Advanced loop - for of loop . for in loop, forEach loop
     3. Map in javascript - similar to hashSet in c#
 
+11-06-2024
+
+Things I have learnt today
+
+    1. Filter , Map and reduce functions for array and objects.
+    2. DOM manilution introduction
 
 Where I left today
 
@@ -56,3 +62,4 @@ Where I left today
     - Start with Immediately invoked function expression
     - Start with for loop with break and continue
     - Start with Filter Map and reduce in javascript - 29
+    - Start with All DOM selectors - 32
