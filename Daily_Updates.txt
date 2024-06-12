@@ -54,6 +54,14 @@ Things I have learnt today
     1. Filter , Map and reduce functions for array and objects.
     2. DOM manilution introduction
 
+12-06-2024
+
+Things I have learnt today
+
+    1. DOM selectors
+    2. Create new elemenets in DOM
+    3. Edit and remove elemenets in DOM
+
 Where I left today
 
     - Start with Object in javascript. - 16
@@ -63,3 +71,4 @@ Where I left today
     - Start with for loop with break and continue
     - Start with Filter Map and reduce in javascript - 29
     - Start with All DOM selectors - 32
+    - Start with building the projects - 35

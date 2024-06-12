@@ -1,0 +1,8 @@
+
+
+1. The difference between innerText and innerContent is that
+    - innerText only contains the text which is visible.
+    - innerContent contains the complete text, which may be invisible due to css properties.
+    - innerHTML supports tags as well along with text.
+2. document.querySelector('h1') - will return first h1 tag available in the page.
+3. document.querySelectorAll('h1') - will return all h1 tags available in the page.
