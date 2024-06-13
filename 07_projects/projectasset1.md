@@ -114,7 +114,7 @@ setInterval(() => {
 
  ```javascript code
 
-let randomNumber = parseInt(Math.random() * 100 + 1);
+llet randomNumber = parseInt(Math.random() * 100 + 1);
 
 let submit = document.querySelector('#subt');
 let userInput = document.querySelector('#guessField');
@@ -141,10 +141,13 @@ if (playGame) {
 function validateTheGuess(guess) {
   if (isNaN(guess)) {
     alert('Please enter a valid number');
+    userInput.value = '';
   } else if (guess < 1) {
     alert('Please enter a number greater than 0');
+    userInput.value = '';
   } else if (guess > 100) {
     alert('Please enter a number less than 100');
+    userInput.value = '';
   } else {
     prevGuess.push(guess);
 
@@ -205,5 +208,6 @@ function endTheGame() {
   playGame = false;
   startNewGame();
 }
+
 
  ```
