@@ -94,3 +94,18 @@ function printMessage(result) {
 
 
  ```
+
+ # Project 3 Solution
+
+ ``` javascript code 
+ 
+ let time = document.getElementById('clock');
+
+setInterval(() => {
+  let date = new Date();
+  //console.log(date.toLocaleTimeString());
+
+  time.innerHTML = date.toLocaleTimeString();
+}, 1000);
+ 
+ ```
