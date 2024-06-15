@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    
+</body>
+
+<script>
+    const targetUri = 'https://api.github.com/users/hiteshchoudhary'
+    let xhr = new XMLHttpRequest()
+    xhr.open('GET', targetUri)
+    xhr.onreadystatechange = () => {
+        console.log(xhr.readyState)
+
+        if(xhr.readyState === 4){
+            let response = JSON.parse(xhr.response)
+            console.log(response)
+
+            let docBody = document.querySelector('body')
+
+            let parentDiv = document.createElement('div')
+            let infoDiv = document.createElement('div')
+
+            let followers = response.followers;
+            let formattedFollowers = formatTheFollowers(followers)
+            let following = formatTheFollowers(response.following)
+            // append childs
+            parentDiv.appendChild(infoDiv)
+
+            // css
+            infoDiv.innerHTML = `<img src="${response.avatar_url}" style="width:200px; border-radius:50%">
+                <h3>${response.name}</h3>
+                <p>${response.bio}<p>
+                <p>${formattedFollowers} followers · ${following} following</p>
+                <p>${response.location}</p>
+                <p>
+                    <a id= "hyperlinks" href="${response.blog}" style="color:white;text-decoration:none;">${response.blog}</a>
+                </p>
+                <p>
+                    <a id= "hyperlinks" href="https://x.com/${response.twitter_username}" style="color:white;text-decoration:none;">@${response.twitter_username}</a>  
+                </p>
+            `
+            infoDiv.style.cssText = 'width:230px;float:left;'
+            docBody.appendChild(parentDiv)
+
+        }
+    }
+   
+    xhr.send()
+
+    function formatTheFollowers(followers){
+        return followers < 1000 ? followers : ( followers / 1000) + 'k'
+    }
+</script>
+</html>
