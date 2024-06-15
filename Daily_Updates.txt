@@ -66,7 +66,14 @@ Things I have learnt today
 
     1. Built projects
     2. Events in javascript
-    
+
+15-06-2024
+
+Things I have learnt today
+
+    1. 2 projects with Async JS
+    2. API requests with XMLHttpRequest
+
 Where I left today
 
     - Start with Object in javascript. - 16
@@ -79,3 +86,4 @@ Where I left today
     - Start with building the projects - 35
     - Read with what's left on Events
     - Start with Async javascriptb- 37
+    - Start with Promise in javascript - 40
