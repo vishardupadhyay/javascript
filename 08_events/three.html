@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Chai aur javascript </h1>
+    <button id="start"> Start </button>
+    <button id="stop"> Stop </button>
+</body>
+<script>
+    let displayNameAndDate = (value) => {
+        console.log(value, Date.now())
+    }
+
+    let setNameAndDate;
+
+    document.querySelector('#start').addEventListener('click', () => {
+        setNameAndDate = setInterval(displayNameAndDate, 1000, "Vishard")
+    })
+
+    document.querySelector('#stop').addEventListener('click', () => {
+        clearInterval(setNameAndDate)
+    })
+
+</script>
+</html>

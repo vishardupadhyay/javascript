@@ -114,7 +114,7 @@ setInterval(() => {
 
  ```javascript code
 
-llet randomNumber = parseInt(Math.random() * 100 + 1);
+let randomNumber = parseInt(Math.random() * 100 + 1);
 
 let submit = document.querySelector('#subt');
 let userInput = document.querySelector('#guessField');
@@ -211,3 +211,69 @@ function endTheGame() {
 
 
  ```
+
+  # Project 5 Solution
+
+  ``` javascript 
+  
+  let insert = document.getElementById('insert');
+
+window.addEventListener('keydown', (event) => {
+  insert.innerHTML = `
+    <div class='color'>
+      <table>
+        <tr>
+          <th>Key</th>
+          <th>Key Code </th>
+          <th>Code</th>
+        </tr>
+        <tr>
+          <th>${event.key === ' ' ? 'Space' : event.key}</th>
+          <th>${event.keyCode}</th>
+          <th>${event.code}</th>
+        </tr>
+      </table>
+    </div>
+  `;
+});
+
+
+  ```
+  # Project 6 Solution
+
+  ``` javascript
+  // Generate a random color
+
+let randomColor = () => {
+  const hexValues = '0123456789ABCDEF';
+
+  let color = '#';
+
+  for (let i = 0; i < 6; i++) {
+    color += hexValues[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+let intervalId;
+
+const changeTheColor = () => {
+  if (!intervalId) {
+    intervalId = setInterval(changeBgColor, 1000);
+  }
+  function changeBgColor() {
+    document.body.style.backgroundColor = randomColor();
+  }
+};
+
+const stopChangingColor = () => {
+  clearInterval(intervalId);
+  intervalId = null;
+};
+
+document.querySelector('#start').addEventListener('click', changeTheColor);
+
+document.querySelector('#stop').addEventListener('click', stopChangingColor);
+
+
+  ```
