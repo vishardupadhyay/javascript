@@ -74,6 +74,10 @@ Things I have learnt today
     1. 2 projects with Async JS
     2. API requests with XMLHttpRequest
 
+17-06-2024
+
+    1. Started with promises
+
 Where I left today
 
     - Start with Object in javascript. - 16
@@ -85,5 +89,5 @@ Where I left today
     - Start with All DOM selectors - 32
     - Start with building the projects - 35
     - Read with what's left on Events
-    - Start with Async javascriptb- 37
-    - Start with Promise in javascript - 40
+    - Start with Async javascript- 37
+    - Start with Promise in javascript - 40 - re-visit required
