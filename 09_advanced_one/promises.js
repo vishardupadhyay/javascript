@@ -60,19 +60,25 @@
 //     console.log("Finally executed.")
 // })
 
-// let promiseFive = new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//         let error = true
+let promiseFive = new Promise((onFulfilled, onReject) => {
+    setTimeout(() => {
+        let error = false
         
-//         if(!error){
-//             resolve( { userName: "javascript", password: "123"})
-//         }
-//         else{
-//             reject("ERROR: JS went wrong.")
-//         }
-//     }, 1000)
-// })
+        if(!error){
+            onFulfilled( { userName: "javascript", password: "123"})
+        }
+        else{
+            onReject("ERROR: JS went wrong.")
+        }
+    }, 1000)
+})
 
+promiseFive.then((data) => {
+    console.log(data)
+})
+.catch((error) => {
+    console.log(error)
+})
 // let resp = async () => {
 //     try {
 //         const response = await promiseFive
@@ -98,7 +104,8 @@
 
 fetch('https://jsonplaceholder.typicode.com/users')
 .then((response) => {
-    return response.json()
+    return response.status
+    //return response.json()
 })
 .then((data) => {
     console.log(data)

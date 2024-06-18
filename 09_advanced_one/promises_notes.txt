@@ -1,0 +1,5 @@
+1. All status codes including 404 are part of resolve not reject
+    they are not considered as errors.
+2. Only some specific scenarios are considered as rejection like CORS, Server was unreachable etc.
+3. While using fetch api's, a special queue is created to exeute them called Micro Task Queue which has 
+   priority over task queues.
