@@ -85,7 +85,16 @@ Things I have learnt today
 19-06-2024
 
     1. Object Oriented in javascript
+    2. Call and this in javascript
 
+20-06-2024
+
+    1. Prototype in javascript
+    2. Call in javascript
+    3. classes and inheritance in javascript
+    4. static properties in javascript
+    5. bind in javascript 
+    
 Where I left today
 
     - Start with Object in javascript. - 16
@@ -100,4 +109,6 @@ Where I left today
     - Start with Async javascript- 37
     - Start with Promise in javascript - 40 - re-visit required
     - Start with Object Oriented in Javascript
-    - Start with Magic of Prototype in javascript
+    - Start with Magic of Prototype in javascript - re-visit required
+    - Call in javascript - to pass the current context - re-visit will be helpful
+    - Start with Now you know Objects in javascript
