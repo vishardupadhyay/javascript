@@ -111,4 +111,5 @@ Where I left today
     - Start with Object Oriented in Javascript
     - Start with Magic of Prototype in javascript - re-visit required
     - Call in javascript - to pass the current context - re-visit will be helpful
-    - Start with Now you know Objects in javascript
+    - Start with Now you know Objects in javascript - we can configure any objects , not to writable, itertable, enumerable.
+    - Start with Getter Setter and Stack Overflow
